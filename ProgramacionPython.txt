@@ -1,0 +1,279 @@
+Programación en Pythion
+
+Por que Paython?
+
+Que se quiere lograr?
+
+Especialidades
+
+Frontend 
+
+Interhent of things
+
+Maching Learning
+
+Backend
+
+devops nube
+
+Control de infraestructura
+
+Data science 
+
+Desarrollo de videjuegos
+
+Desarrollo Movil
+
+facil elegante buenas practicas
+
+Aplicación con integración en Python
+
+Serie de pasos para resolver un problema
+
+Algoritmo
+
+Serie de pasos ordenados
+finito
+No ambiguo-cada paso con su respectiva finalidad
+
+Grafico- Diagrama de flujo
+
+Editor de código
+
+Palabras clave
+
+Bloc de notas
+
+Visual studio code resaltado de palabras claves del lenguaje
+
+espaciado que requiere python
+
+Consola Programa que nos permite usar la computadora sin
+interfaz grafica
+
+SO tipo unix linux
+
+consola, comandos
+
+Variable: es un lugar donde puedo guardar objetos numero texto
+
+identificador de mi variable nopuede empezar con numeros
+debe estar en minuscula, se separan con _
+
+POO para digma de programación
+
+objetos tipos de datos
+
+Numeros, flotantes texto, cadenas, booleanos verdadero falso
+string cadena
+
+concatenación unir dos textos
+
+
+
+
+
+Input("") para pedirle al usuario que introduzca datos.
+
+int() con datos o variables dentro de parentesis para convertirlo en número entero.
+
+str() para convertir números tanto decimales como enteros a strings.
+
+and para comparar si dos valores son verdaderos.
+-or para comparar si dos valores son falsos.
+-not para invertir el valor booleano.
+-== Compara dos valores y te dice si son iguales o no.
+-!= Compara dos valores y te dice sin son diferentes o no.
+-> Compara si es mayor que otro valor.
+-> Compara si es menor que otro valor.
+>= igual o mayor que el valor a comparar.
+<= igual o menor que el valor a comparar.
+
+>>> numero1 = input("Es
+Escribe un numero: 5   
+>>> numero1            
+'5'                    
+>>> numero1 = int (nume
+>>> numero1            
+5                      
+>>> estudia = false    
+Traceback (most recent 
+  File "<stdin>", line 
+NameError: name 'false'
+>>> estudiante = False 
+>>> trabaja = False    
+>>> estudiante = True  
+>>> estudiante  and tra
+False                  
+>>> estudiante or traba
+True                   
+>>> not estudiante     
+False                  
+>>> not trabaja        
+True                   
+>>> numero1=5          
+>>> numero1            
+5                      
+>>> numero2 = 2        
+>>> numero1 == numero2 
+False                  
+>>> numero1 != numero2 
+True                   
+>>> numero1 > numero 2 
+  File "<stdin>", line 
+    numero1 > numero 2 
+                     ^ 
+SyntaxError: invalid sy
+>>> numero1 > numero2  
+True                   
+>>> numero2 < numero2  
+False                  
+>>> numero3=5          
+>>> numero3 >= numero1 
+
+
+condicionales
+
+funciones
+
+definicion de pasos comunes, para llegar a uno distinto x y o z
+
+parametros
+
+Modularización
+
+Cadenas
+
+¿Cuál es tu nombre? rodrigo
+>>> nombre
+' rodrigo'
+>>> nombre.upper()
+' RODRIGO'
+>>> nombre.capitalize()
+' rodrigo'
+>>> nombre = input("¿Cuál es tu nombre?")
+¿Cuál es tu nombre?rodrigo
+>>> nombre.capitalize()
+'Rodrigo'
+>>> nombre = nombre.capitalize()
+>>> nombre
+'Rodrigo'
+>>> nombre = input("¿Cuál es tu nombre?")
+¿Cuál es tu nombre?rodrigo h
+>>> nombre
+'rodrigo h'
+>>> nombre = nombre.strip()
+>>> nombre
+'rodrigo h'
+>>> nombre = input("¿Cuál es tu nombre?")
+¿Cuál es tu nombre?rodrigo
+>>> nombre
+'rodrigo '
+>>> nombre = nombre.strip()
+>>> nombre
+'rodrigo'
+>>> nombre = input("¿Cuál es tu nombre?")
+¿Cuál es tu nombre?RODRIGO
+>>> nombre = nombre.lower()
+>>> nombre
+'rodrigo'
+>>> nombre = nombre.replace("o", "a")
+>>> nombre
+'radriga'
+>>> nombre[0]
+'r'
+>>> len(nombre)
+
+
+slices
+
+Type "help", "copyright", "credits" or "license" for more information.
+>>> nombre = "Francisco"
+>>> nombre[0]
+'F'
+>>> nombre[0:4]
+'Fran'
+>>> nombre[2:4]
+'an'
+>>> nombre[4:6]
+'ci'
+>>> nombre[1:5:2]
+'rn'
+>>> nombre[1:7:2]
+'rni'
+>>> nombre[::]
+'Francisco'
+>>> nombre[1::3]
+'rcc'
+>>> nombre[1::2]
+'rnic'
+>>> nombre[::-1]
+'ocsicnarF'
+
+palindromo se lee igual al derecho y al reves
+
+Bucles
+
+Repeticiones de pasos
+
+ciclo while
+
+CICLO FOR
+
+recorrer strings con for
+
+dentro de ciclos
+
+proyecto deprimalidad
+
+números primos
+
+Modulos dentro de python
+Juego adivina
+uso de listas
+
+Cajas para guardar objetos
+varios objetos
+
+EStructuras de datos- listas
+
+modulo
+objetos.append(1)
+agrega un 1 a la lista
+
+objetos.pop(1)
+elimina el valor 1 de la lista
+
+for elemento in objeto:
+    print(elemento)
+imprime los elemento de la lista
+
+tuplas
+las tuplas no se pueden modificar
+si se recorre una tupla con  un for 
+es mas rapido que con una lista
+
+el ciclo funciona mas veloz con tupla que con la lista
+
+inmutables
+
+diccionarios
+
+pilas cola arboles
+
+estructuras de datos
+
+estructura de datos de llaves y valores
+
+diccionario
+
+se accede por medio de llaves
+
+nombre de indice = llaves
+
+valores de diccionario igual a valores
+
+escribir en ingles
+
+
+
